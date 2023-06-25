@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: aqua;
+  padding: 1rem 2rem;
+  color: red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+nav a {
+  color: red;
+  transition: all 0.3s;
+}
+nav a:hover {
+  color: black;
+}
+input,
+button {
+  cursor: pointer;
+}
+main,
+footer {
+  padding: 1rem 2rem;
+}
